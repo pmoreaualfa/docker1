@@ -1,0 +1,8 @@
+version: '3'
+services:
+  directus:
+    volumes:
+      - ./extensions:/directus/extensions
+    environment:
+      PUBLIC_URL: 'https://localhost:8055'
+      LOG_LEVEL: 'debug'

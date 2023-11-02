@@ -1,0 +1,1 @@
+FROM directus/directus:10.7.1
